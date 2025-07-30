@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gift Card - Sillvex</title>
+    <style>
+        body {
+            background: url("giftcard2.jpg") no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .gift-card-box {
+            background-color: rgba(255, 255, 255, 0.95);
+            width: 350px;
+            margin: 80px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .gift-card-box h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .gift-card-box p {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .gift-card-box form input,
+        .gift-card-box form select,
+        .gift-card-box form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .gift-card-box form input[type="submit"] {
+            background-color: #66a6ff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .gift-card-box form input[type="submit"]:hover {
+            background-color: #558de8;
+        }
+
+        .features {
+            text-align: center;
+            margin-top: 40px;
+            color: #fff;
+            background-color: rgba(0,0,0,0.3);
+            padding: 20px;
+            border-radius: 15px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="gift-card-box">
+        <h1>🎁 Sillvex Gift Card</h1>
+        <p>Surprise your loved ones with the sparkle of silver</p>
+
+        <form>
+            <input type="text" name="recipient" placeholder="Recipient's Name" required>
+            <input type="email" name="email" placeholder="Recipient's Email" required>
+            <input type="text" name="sender" placeholder="Your Name" required>
+            <textarea name="message" rows="4" placeholder="Write your warm wishes here..."></textarea>
+            <select name="amount">
+                <option selected disabled>Select Amount</option>
+                <option>₹500</option>
+                <option>₹1000</option>
+                <option>₹1500</option>
+                <option>₹2000</option>
+            </select>
+            <input type="submit" value="Send Gift Card">
+        </form>
+    </div>
+
+    <div class="features">
+        <h3>🌟 Why Sillvex Gift Cards?</h3>
+        <p>
+            ✓ Perfect for birthdays, anniversaries & surprises<br>
+            ✓ Choose any silver jewellery from our collection<br>
+            ✓ Easy to send & delightful to receive!
+        </p>
+    </div>
+
+</body>
+</html>

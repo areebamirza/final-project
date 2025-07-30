@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign-In Page</title>
+  <style>
+    body {
+      background-color: rgb(242, 210, 223);
+      font-family: Arial, sans-serif;
+      background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+    }
+
+    .box {
+      width: 300px;
+      height: 250px;
+      margin: 200px 0 0 200px; /* top right bottom left */
+      padding: 30px;
+      background-color: rgb(242, 210, 223);
+      border: 1px solid #ddd;
+      border-radius: 10px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 7px;
+      margin-bottom: 15px;
+      border: 1px solid rgb(242, 210, 223);
+      border-radius: 10px;
+    }
+
+    button {
+      width: 105%;
+      padding: 10px;
+      background-color:rgb(79, 35, 53);
+      color: rgb(242, 210, 223);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: rgb(218, 25, 102);
+    }
+
+    .bottom-text {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .bottom-text a {
+      color: rgb(123, 44, 44);
+    }
+  </style>
+</head>
+<body background="image5.png" style="color: rgb(123, 44, 44);">
+  
+
+  <div class="box">
+    <h2>Sign In</h2>
+    <form action="thankyou.html" method="get">
+      <input type="email" required placeholder="Email">
+      <input type="password" required placeholder="Password">
+      <button type="submit">Login</button>
+      <div class="bottom-text">
+        Don't have an account? <a href="#">Sign Up</a>
+
+
+         <!-- <a href="index.html" style="color: rgb(123, 44, 44);">← Back to Home</a> -->
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
